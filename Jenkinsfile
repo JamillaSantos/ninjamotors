@@ -18,7 +18,7 @@ pipeline {
 
                 script {
                     try {
-                         sh "bundle exec cucumber -p ci -t @temp"
+                         sh "bundle exec cucumber -p ci"
                     } finally {
                         cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'log', sortingMethod: 'ALPHABETICAL'
                     }
