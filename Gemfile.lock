@@ -72,7 +72,7 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
-  x86-mingw32
+  ruby
 
 DEPENDENCIES
   capybara
